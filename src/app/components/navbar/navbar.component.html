@@ -1,0 +1,46 @@
+<div class="" id="navar">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a routerLink="/home" class="navbar-brand">
+        <img src="assets/icons/logo.svg" />
+        <!-- <img src="assets/imgs/logo-mobile.svg" class="d-md-none" /> -->
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+        aria-expanded="false"
+      >
+        <span class="fa fa-bars"></span>
+        <span class="fa fa-times"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a
+            [routerLink]="['/home']"
+            [routerLinkActive]="['active']"
+            class="nav-item nav-link"
+            >home</a
+          >
+          <a
+            [routerLink]="['/pages']"
+            [routerLinkActive]="['active']"
+            class="nav-item nav-link"
+            >pages</a
+          >
+          <a
+            [routerLink]="['/profile']"
+            [routerLinkActive]="['active']"
+            class="nav-item nav-link"
+            >profile</a
+          >
+          <!-- <a class="nav-item nav-link"></a> -->
+        </div>
+        <div class="button">
+          <a [routerLink]="['/login']" class="btn">get started</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>

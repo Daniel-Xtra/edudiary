@@ -1,0 +1,91 @@
+#page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+#row {
+  min-height: 85vh;
+
+  h1 {
+    font-family: ProductSans-Black;
+    font-size: 3.7rem;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 0;
+    max-width: 90%;
+    color: #2e3035;
+  }
+  p {
+    font-size: 1.5rem;
+    color: #989da8;
+    margin: 40px 0;
+    max-width: 85%;
+  }
+
+  img {
+    width: 90%;
+    float: right;
+  }
+
+  button {
+    background-color: #3281ff;
+  }
+}
+.cards {
+  background-color: #fafbfc;
+  .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  h6 {
+    font-size: 1.5rem;
+    color: #000000;
+    padding: 15px 0;
+    margin: 0;
+    font-family: ProductSans-Medium;
+  }
+  p {
+    margin: 0;
+    font-size: 1rem;
+    color: #989da8;
+  }
+}
+
+.easy {
+  img {
+    width: 70%;
+    //float: left;
+  }
+
+  h3 {
+    font-family: ProductSans-Black;
+    font-size: 2.7rem;
+    max-width: 60%;
+  }
+  p {
+    margin: 0;
+    font-size: 1rem;
+    color: #989da8;
+    font-family: ProductSans-Medium;
+    max-width: 50%;
+    padding: 20px 0;
+  }
+
+  ul {
+    padding-left: 1rem;
+    li {
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      color: #000000;
+      font-family: ProductSans-Medium;
+      padding-bottom: 20px;
+    }
+  }
+}

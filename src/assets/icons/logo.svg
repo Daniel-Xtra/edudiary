@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="48" viewBox="0 0 192 48">
+    <g font-weight="700">
+        <text fill="#2e3035" font-family="ProductSans-Bold, Product Sans" font-size="28px" transform="translate(-278 -68) translate(355 101)">
+            <tspan x="0" y="0">Edudiary</tspan>
+        </text>
+        <text fill="#3281ff" font-family="Helvetica-Bold, Helvetica" font-size="48px" letter-spacing="-0.04em" transform="translate(-278 -68) translate(278 105)">
+            <tspan x="0" y="0">ed</tspan>
+        </text>
+    </g>
+</svg>
