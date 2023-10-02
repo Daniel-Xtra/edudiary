@@ -93,3 +93,41 @@
     }
   }
 }
+
+@media (max-width: 767.98px) {
+  #row {
+    h1 {
+      word-wrap: break-word;
+      max-width: 100%;
+      font-size: 2.8rem;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 100%;
+    }
+    img {
+      margin-top: 3rem;
+      width: 100%;
+    }
+  }
+  .cards {
+    .card {
+      margin: 10px 0;
+    }
+  }
+  .easy {
+    h3 {
+      max-width: 100%;
+      font-size: 2.2rem;
+    }
+    p {
+      max-width: 80%;
+    }
+    img {
+      width: -webkit-fill-available;
+      &.user {
+        width: 100%;
+      }
+    }
+  }
+}
